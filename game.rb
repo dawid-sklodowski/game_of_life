@@ -9,5 +9,4 @@ while true do
   sleep 0.2
   world = world.evolve
   puts "\e[H\e[2J"
-
 end

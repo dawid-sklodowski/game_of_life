@@ -37,10 +37,7 @@ class World
     end
   end
 
-
-
   def draw(x,y)
-
     (-y/2..y/2).each do |yy|
       puts((-x/2..x/2).collect do |xx|
         @world.include?(Cell.new(xx,yy)) ? '#' : '.'
