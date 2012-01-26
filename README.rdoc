@@ -1,0 +1,5 @@
+=== Game of Life
+Conway's Game of Life in Ruby
+
+== Usage
+  ruby game.rb
